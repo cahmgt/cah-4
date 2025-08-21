@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "vercel-build": "npm ci --prefer-offline --no-audit && next build"
   },
   "dependencies": {
     "lucide-react": "^0.294.0",
