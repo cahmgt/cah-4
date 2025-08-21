@@ -1,11 +1,5 @@
 {
-  "buildCommand": "npm ci --prefer-offline --no-audit",
-  "installCommand": "npm ci --prefer-offline --no-audit",
-  "framework": "nextjs",
-  "builds": [
-    {
-      "src": "package.json",
-      "use": "@vercel/next"
-    }
-  ]
+  "buildCommand": "npm run build",
+  "installCommand": "npm ci",
+  "framework": "nextjs"
 }
