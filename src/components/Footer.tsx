@@ -3,11 +3,11 @@ import { Facebook, Instagram, Twitter, Linkedin, Youtube } from 'lucide-react'
 
 export default function Footer() {
   const socialLinks = [
-    { icon: <Facebook className="size-6 text-scheme-text" />, href: "#", label: "Facebook" },
-    { icon: <Instagram className="size-6 text-scheme-text" />, href: "#", label: "Instagram" },
-    { icon: <Twitter className="size-6 text-scheme-text" />, href: "#", label: "Twitter" },
-    { icon: <Linkedin className="size-6 text-scheme-text" />, href: "#", label: "LinkedIn" },
-    { icon: <Youtube className="size-6 text-scheme-text" />, href: "#", label: "YouTube" }
+    { icon: <Facebook className="size-6 text-medical-primary" />, href: "#", label: "Facebook" },
+    { icon: <Instagram className="size-6 text-medical-primary" />, href: "#", label: "Instagram" },
+    { icon: <Twitter className="size-6 text-medical-primary" />, href: "#", label: "Twitter" },
+    { icon: <Linkedin className="size-6 text-medical-primary" />, href: "#", label: "LinkedIn" },
+    { icon: <Youtube className="size-6 text-medical-primary" />, href: "#", label: "YouTube" }
   ]
 
   const quickLinks1 = [
@@ -41,27 +41,30 @@ export default function Footer() {
           <div>
             <div className="mb-6 md:mb-8">
               <Link href="/" className="flex items-center">
-                <div className="text-2xl font-bold text-neutral-darkest">
+                <div className="text-2xl font-bold text-medical-primary">
                   CAHMGT
                 </div>
               </Link>
             </div>
             <div className="mb-6 md:mb-8">
-              <p className="text-small mb-1 font-semibold">Address:</p>
-              <p className="text-small mb-5 md:mb-6">
+              <p className="text-small mb-1 font-semibold text-medical-dark">Address:</p>
+              <p className="text-small mb-5 md:mb-6 text-medical-muted">
                 Level 1, 12 Sample St, Los Angeles, CA 90001
               </p>
-              <p className="text-small mb-1 font-semibold">Contact:</p>
-              <a href="tel:1800-456-7890" className="text-small block underline hover:text-neutral-600">
-                1-800-456-7890
+              <p className="text-small mb-1 font-semibold text-medical-dark">Contact:</p>
+              <a href="tel:18187834427" className="text-small block underline text-medical-primary hover:text-medical-dark transition-colors">
+                1-818-783-4427
               </a>
-              <a href="mailto:info@cah-4.com" className="text-small block underline hover:text-neutral-600">
-                info@cah-4.com
+              <a href="mailto:info@cahmgt.com" className="text-small block underline text-medical-primary hover:text-medical-dark transition-colors">
+                info@cahmgt.com
+              </a>
+              <a href="https://www.cahmgt.com" className="text-small block underline text-medical-primary hover:text-medical-dark transition-colors">
+                www.cahmgt.com
               </a>
             </div>
             <div className="grid grid-flow-col grid-cols-[max-content] items-start justify-start gap-x-3">
               {socialLinks.map((social, index) => (
-                <a key={index} href={social.href} aria-label={social.label} className="hover:text-neutral-600 transition-colors">
+                <a key={index} href={social.href} aria-label={social.label} className="hover:text-medical-dark transition-colors">
                   {social.icon}
                 </a>
               ))}
@@ -72,7 +75,7 @@ export default function Footer() {
             <ul>
               {quickLinks1.map((link, index) => (
                 <li key={index} className="text-small py-2 font-semibold">
-                  <Link href={link.href} className="hover:text-neutral-600 transition-colors">
+                  <Link href={link.href} className="text-medical-dark hover:text-medical-primary transition-colors">
                     {link.label}
                   </Link>
                 </li>
@@ -81,7 +84,7 @@ export default function Footer() {
             <ul>
               {quickLinks2.map((link, index) => (
                 <li key={index} className="text-small py-2 font-semibold">
-                  <Link href={link.href} className="hover:text-neutral-600 transition-colors">
+                  <Link href={link.href} className="text-medical-dark hover:text-medical-primary transition-colors">
                     {link.label}
                   </Link>
                 </li>
@@ -90,11 +93,11 @@ export default function Footer() {
           </div>
 
           <div className="lg:block">
-            <h3 className="text-small font-semibold mb-4">Our Services</h3>
+            <h3 className="text-small font-semibold mb-4 text-medical-dark">Our Services</h3>
             <ul>
               {serviceLinks.map((link, index) => (
                 <li key={index} className="text-small py-2">
-                  <Link href={link.href} className="hover:text-neutral-600 transition-colors">
+                  <Link href={link.href} className="text-medical-muted hover:text-medical-primary transition-colors">
                     {link.label}
                   </Link>
                 </li>
@@ -106,20 +109,20 @@ export default function Footer() {
         <div className="h-px w-full bg-scheme-border"></div>
         
         <div className="text-small flex flex-col-reverse items-start justify-between pt-6 pb-4 md:flex-row md:items-center md:pt-8 md:pb-0">
-          <p className="mt-8 md:mt-0">© 2024 CAHMGT. All rights reserved.</p>
+          <p className="mt-8 md:mt-0 text-medical-muted">© 2024 California Healthcare Management Group. All rights reserved.</p>
           <ul className="text-small grid grid-flow-row grid-cols-[max-content] justify-center gap-y-4 md:grid-flow-col md:gap-x-6 md:gap-y-0">
             <li className="underline">
-              <Link href="/privacy-policy" className="hover:text-neutral-600 transition-colors">
+              <Link href="/privacy-policy" className="text-medical-muted hover:text-medical-primary transition-colors">
                 Privacy Policy
               </Link>
             </li>
             <li className="underline">
-              <Link href="/terms-of-service" className="hover:text-neutral-600 transition-colors">
+              <Link href="/terms-of-service" className="text-medical-muted hover:text-medical-primary transition-colors">
                 Terms of Service
               </Link>
             </li>
             <li className="underline">
-              <Link href="/disclaimer" className="hover:text-neutral-600 transition-colors">
+              <Link href="/disclaimer" className="text-medical-muted hover:text-medical-primary transition-colors">
                 Disclaimer
               </Link>
             </li>

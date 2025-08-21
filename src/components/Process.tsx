@@ -1,25 +1,28 @@
 import Link from 'next/link'
-import { Home, ClipboardList, Play } from 'lucide-react'
+import { FileText, ClipboardList, Play, Phone } from 'lucide-react'
 
 export default function Process() {
   const steps = [
     {
-      icon: <Home className="size-12 text-scheme-text" />,
-      title: "Step 1: Initial Consultation and Assessment",
-      description: "We begin with a comprehensive consultation to understand your unique needs.",
-      link: "/contact-us"
+      icon: <FileText className="size-12 text-medical-primary" />,
+      title: "Step 1: Doctor's Prescription",
+      description: "Your home health care services start with your doctor writing a prescription for the types of services you need and how often professionals will visit.",
+      link: "/contact-us",
+      image: "/gims/010.png"
     },
     {
-      icon: <ClipboardList className="size-12 text-scheme-text" />,
-      title: "Step 2: Creating Your Personalized Care Plan",
-      description: "Our team collaborates with you to design a tailored care plan.",
-      link: "/services"
+      icon: <ClipboardList className="size-12 text-medical-secondary" />,
+      title: "Step 2: Contact CAHMGT",
+      description: "Once you have your prescription, you or your physician can contact California Healthcare Management Group and we will take care of the rest.",
+      link: "/contact-us",
+      image: "/gims/011.png"
     },
     {
-      icon: <Play className="size-12 text-scheme-text" />,
-      title: "Step 3: Implementation of Care Services",
-      description: "We begin delivering your customized care as planned.",
-      link: "/services"
+      icon: <Play className="size-12 text-medical-accent" />,
+      title: "Step 3: Insurance Verification & Care Start",
+      description: "We verify your insurance benefits prior to beginning care to ensure there are no surprises, then start delivering your customized care plan.",
+      link: "/services",
+      image: "/gims/012.png"
     }
   ]
 
@@ -29,54 +32,49 @@ export default function Process() {
         <div className="flex flex-col items-start">
           <div className="mb-12 grid grid-cols-1 items-start justify-between gap-5 md:mb-18 md:grid-cols-2 md:gap-x-12 md:gap-y-8 lg:mb-20 lg:gap-x-20">
             <div>
-              <p className="mb-3 font-semibold md:mb-4">Care</p>
-              <h2 className="heading-h2 font-bold">
-                Your Journey to Personalized Home Health Care
+              <p className="mb-3 font-semibold md:mb-4 text-medical-primary">Getting Started</p>
+              <h2 className="heading-h2 font-bold text-medical-dark">
+                How to Begin Your Home Health Care Journey
               </h2>
             </div>
             <div>
-              <p className="text-medium">
-                Starting your home health care journey with us is simple and
-                straightforward. We prioritize your needs and preferences, ensuring
-                a seamless transition to receiving care at home. Our dedicated team
-                is here to support you every step of the way.
+              <p className="text-medium text-medical-muted">
+                Starting your home health care journey with California Healthcare Management Group is simple and straightforward. We prioritize your needs and preferences, ensuring a seamless transition to receiving care at home. Our dedicated team is here to support you every step of the way.
               </p>
             </div>
           </div>
           
           <div className="grid grid-cols-1 items-start gap-y-12 md:grid-cols-3 md:gap-x-8 md:gap-y-16 lg:gap-x-12">
             {steps.map((step, index) => (
-              <div key={index}>
-                <div className="mb-5 md:mb-6">
-                  {step.icon}
+              <div key={index} className="p-6 rounded-lg border border-scheme-border hover:border-medical-primary transition-colors overflow-hidden group">
+                <div className="relative mb-5 md:mb-6">
+                  <img 
+                    src={step.image} 
+                    alt={`${step.title} - CAHMGT Process`}
+                    className="w-full h-40 object-cover rounded-lg group-hover:scale-105 transition-transform duration-300"
+                  />
+                  <div className="absolute top-3 right-3 bg-white/90 rounded-full p-2">
+                    {step.icon}
+                  </div>
                 </div>
-                <h3 className="heading-h4 mb-5 font-bold md:mb-6">
+                <h3 className="heading-h4 mb-5 font-bold md:mb-6 text-medical-dark">
                   {step.title}
                 </h3>
-                <p>{step.description}</p>
+                <p className="text-medical-muted">{step.description}</p>
               </div>
             ))}
           </div>
           
           <div className="mt-10 flex items-center gap-4 md:mt-14 lg:mt-16">
             <Link href="/services">
-              <button className="inline-flex items-center justify-center gap-3 rounded-button whitespace-nowrap transition-all duration-200 ease-in-out focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 border border-scheme-border bg-scheme-background text-scheme-text px-6 py-3 hover:bg-gray-50">
-                Learn More
+              <button className="inline-flex items-center justify-center gap-3 rounded-button whitespace-nowrap transition-all duration-200 ease-in-out focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 border border-medical-primary bg-medical-primary text-white px-6 py-3 hover:bg-medical-dark hover:border-medical-dark">
+                View All Services
               </button>
             </Link>
             <Link href="/contact-us">
-              <button className="inline-flex items-center justify-center rounded-button whitespace-nowrap transition-all duration-200 ease-in-out focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 gap-2 text-scheme-text p-0 hover:text-neutral-600">
-                Sign Up
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24px"
-                  height="24px"
-                  viewBox="0 -960 960 960"
-                  className="text-scheme-text"
-                  fill="currentColor"
-                >
-                  <path d="M504-480 348-636q-11-11-11-28t11-28q11-11 28-11t28 11l184 184q6 6 8.5 13t2.5 15q0 8-2.5 15t-8.5 13L404-268q-11 11-28 11t-28-11q-11-11-11-28t11-28l156-156Z" />
-                </svg>
+              <button className="inline-flex items-center justify-center rounded-button whitespace-nowrap transition-all duration-200 ease-in-out focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 gap-2 text-medical-primary p-0 hover:text-medical-dark">
+                Contact Us Today
+                <Phone className="size-5" />
               </button>
             </Link>
           </div>

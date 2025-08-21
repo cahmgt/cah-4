@@ -10,49 +10,10 @@ export default function ReviewsTestimonials() {
       <section className="px-[5%] py-16 md:py-24 lg:py-28">
         <div className="container">
           <div className="mx-auto mb-12 flex w-full max-w-lg flex-col items-start justify-start md:mb-16 lg:mb-20">
-            <nav
-              data-slot="breadcrumb"
-              aria-label="breadcrumb"
-              className="mb-6 flex w-full items-center"
-            >
-              <ol className="flex flex-wrap items-center gap-1.5 break-words text-scheme-text sm:gap-2">
-                <li className="inline-flex items-center gap-1.5">
-                  <a className="" href="/">Home</a>
-                </li>
-                <li className="text-scheme-text [&>svg]:size-4">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24px"
-                    height="24px"
-                    viewBox="0 -960 960 960"
-                    fill="currentColor"
-                  >
-                    <path d="M504-480 348-636q-11-11-11-28t11-28q11-11 28-11t28 11l184 184q6 6 8.5 13t2.5 15q0 8-2.5 15t-8.5 13L404-268q-11 11-28 11t-28-11q-11-11-11-28t11-28l156-156Z" />
-                  </svg>
-                </li>
-                <li className="inline-flex items-center gap-1.5">
-                  <a className="" href="/reviews">Reviews</a>
-                </li>
-                <li className="text-scheme-text [&>svg]:size-4">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24px"
-                    height="24px"
-                    viewBox="0 -960 960 960"
-                    fill="currentColor"
-                  >
-                    <path d="M504-480 348-636q-11-11-11-28t11-28q11-11 28-11t28 11l184 184q6 6 8.5 13t2.5 15q0 8-2.5 15t-8.5 13L404-268q-11 11-28 11t-28-11q-11-11-11-28t11-28l156-156Z" />
-                  </svg>
-                </li>
-                <li className="inline-flex items-center gap-1.5">
-                  <span>Testimonials</span>
-                </li>
-              </ol>
-            </nav>
-            <h1 className="heading-h2 mb-8 font-bold md:mb-10 lg:mb-12">
+            <h1 className="heading-h2 mb-8 font-bold md:mb-10 lg:mb-12 text-medical-dark">
               Patient Testimonials & Reviews
             </h1>
-            <p className="text-medium">
+            <p className="text-medium text-medical-muted">
               Read what our patients and their families have to say about their experience with our home health care services.
             </p>
           </div>
@@ -63,7 +24,7 @@ export default function ReviewsTestimonials() {
       <section className="px-[5%] py-16 md:py-24 lg:py-28">
         <div className="container">
           <div className="max-w-4xl mx-auto">
-            <div className="bg-gradient-to-r from-blue-50 to-purple-50 p-8 rounded-lg border-l-4 border-blue-500">
+            <div className="bg-gradient-to-r from-medical-light to-medical-accent p-8 rounded-lg border-l-4 border-medical-primary shadow-lg">
               <div className="flex items-center mb-4">
                 <div className="flex text-yellow-400">
                   {[...Array(5)].map((_, i) => (
@@ -72,18 +33,18 @@ export default function ReviewsTestimonials() {
                     </svg>
                   ))}
                 </div>
-                <span className="ml-3 text-lg font-semibold text-gray-700">Featured Review</span>
+                <span className="ml-3 text-lg font-semibold text-medical-dark">Featured Review</span>
               </div>
-              <blockquote className="text-xl italic text-gray-800 mb-6">
+              <blockquote className="text-xl italic text-medical-dark mb-6">
                 "The care my mother received from CAHMGT was exceptional. The nurses were not only professional but also compassionate and understanding. They treated her with dignity and respect, making her recovery journey much more comfortable."
               </blockquote>
               <div className="flex items-center">
-                <div className="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold text-lg mr-4">
+                <div className="w-12 h-12 bg-medical-primary rounded-full flex items-center justify-center text-white font-bold text-lg mr-4">
                   MJ
                 </div>
                 <div>
-                  <div className="font-semibold text-gray-800">Mary Johnson</div>
-                  <div className="text-gray-600">Daughter of Patient</div>
+                  <div className="font-semibold text-medical-dark">Mary Johnson</div>
+                  <div className="text-medical-muted">Daughter of Patient</div>
                 </div>
               </div>
             </div>
@@ -92,62 +53,62 @@ export default function ReviewsTestimonials() {
       </section>
 
       {/* Testimonial Categories */}
-      <section className="px-[5%] py-16 md:py-24 lg:py-28 bg-gray-50">
+      <section className="px-[5%] py-16 md:py-24 lg:py-28 bg-medical-light">
         <div className="container">
           <div className="text-center mb-16">
-            <h2 className="heading-h3 mb-6 font-bold">
+            <h2 className="heading-h3 mb-6 font-bold text-medical-dark">
               Browse Testimonials by Service
             </h2>
-            <p className="text-medium max-w-2xl mx-auto">
+            <p className="text-medium max-w-2xl mx-auto text-medical-muted">
               Find reviews from patients who received specific types of care services.
             </p>
           </div>
           
           <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
-            <div className="bg-white p-6 rounded-lg shadow-sm text-center hover:shadow-md transition-shadow">
-              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <svg className="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <div className="bg-white p-6 rounded-lg shadow-sm text-center hover:shadow-md transition-shadow border border-scheme-border hover:border-medical-primary">
+              <div className="w-16 h-16 bg-medical-light rounded-full flex items-center justify-center mx-auto mb-4">
+                <svg className="w-8 h-8 text-medical-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
                 </svg>
               </div>
-              <h3 className="text-lg font-bold mb-2">Skilled Nursing</h3>
-              <p className="text-medium text-gray-600">
+              <h3 className="text-lg font-bold mb-2 text-medical-dark">Skilled Nursing</h3>
+              <p className="text-medium text-medical-muted">
                 Reviews from patients who received nursing care
               </p>
             </div>
             
-            <div className="bg-white p-6 rounded-lg shadow-sm text-center hover:shadow-md transition-shadow">
-              <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <svg className="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <div className="bg-white p-6 rounded-lg shadow-sm text-center hover:shadow-md transition-shadow border border-scheme-border hover:border-medical-primary">
+              <div className="w-16 h-16 bg-medical-light rounded-full flex items-center justify-center mx-auto mb-4">
+                <svg className="w-8 h-8 text-medical-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                 </svg>
               </div>
-              <h3 className="text-lg font-bold mb-2">Physical Therapy</h3>
-              <p className="text-medium text-gray-600">
+              <h3 className="text-lg font-bold mb-2 text-medical-dark">Physical Therapy</h3>
+              <p className="text-medium text-medical-muted">
                 Feedback from physical therapy patients
               </p>
             </div>
             
-            <div className="bg-white p-6 rounded-lg shadow-sm text-center hover:shadow-md transition-shadow">
-              <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <svg className="w-8 h-8 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <div className="bg-white p-6 rounded-lg shadow-sm text-center hover:shadow-md transition-shadow border border-scheme-border hover:border-medical-primary">
+              <div className="w-16 h-16 bg-medical-light rounded-full flex items-center justify-center mx-auto mb-4">
+                <svg className="w-8 h-8 text-medical-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
                 </svg>
               </div>
-              <h3 className="text-lg font-bold mb-2">Occupational Therapy</h3>
-              <p className="text-medium text-gray-600">
+              <h3 className="text-lg font-bold mb-2 text-medical-dark">Occupational Therapy</h3>
+              <p className="text-medium text-medical-muted">
                 Testimonials from OT patients
               </p>
             </div>
             
-            <div className="bg-white p-6 rounded-lg shadow-sm text-center hover:shadow-md transition-shadow">
-              <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <svg className="w-8 h-8 text-orange-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <div className="bg-white p-6 rounded-lg shadow-sm text-center hover:shadow-md transition-shadow border border-scheme-border hover:border-medical-primary">
+              <div className="w-16 h-16 bg-medical-light rounded-full flex items-center justify-center mx-auto mb-4">
+                <svg className="w-8 h-8 text-medical-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
                 </svg>
               </div>
-              <h3 className="text-lg font-bold mb-2">Speech Therapy</h3>
-              <p className="text-medium text-gray-600">
+              <h3 className="text-lg font-bold mb-2 text-medical-dark">Speech Therapy</h3>
+              <p className="text-medium text-medical-muted">
                 Reviews from speech therapy patients
               </p>
             </div>
@@ -159,16 +120,16 @@ export default function ReviewsTestimonials() {
       <section className="px-[5%] py-16 md:py-24 lg:py-28">
         <div className="container">
           <div className="text-center mb-16">
-            <h2 className="heading-h3 mb-6 font-bold">
+            <h2 className="heading-h3 mb-6 font-bold text-medical-dark">
               What Our Patients Say
             </h2>
-            <p className="text-medium max-w-2xl mx-auto">
+            <p className="text-medium max-w-2xl mx-auto text-medical-muted">
               Real stories from real patients about their experience with our home health care services.
             </p>
           </div>
           
           <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
-            <div className="bg-white p-6 rounded-lg shadow-sm border-l-4 border-green-500">
+            <div className="bg-white p-6 rounded-lg shadow-sm border-l-4 border-medical-success hover:shadow-md transition-shadow">
               <div className="flex text-yellow-400 mb-4">
                 {[...Array(5)].map((_, i) => (
                   <svg key={i} className="w-5 h-5 fill-current" viewBox="0 0 20 20">
@@ -176,21 +137,21 @@ export default function ReviewsTestimonials() {
                   </svg>
                 ))}
               </div>
-              <blockquote className="text-medium text-gray-700 mb-4">
+              <blockquote className="text-medium text-medical-muted mb-4">
                 "The physical therapy I received at home was excellent. My therapist was knowledgeable and encouraging, helping me regain strength and mobility after my surgery."
               </blockquote>
               <div className="flex items-center">
-                <div className="w-10 h-10 bg-green-500 rounded-full flex items-center justify-center text-white font-bold text-sm mr-3">
+                <div className="w-10 h-10 bg-medical-success rounded-full flex items-center justify-center text-white font-bold text-sm mr-3">
                   RS
                 </div>
                 <div>
-                  <div className="font-semibold text-gray-800">Robert Smith</div>
-                  <div className="text-sm text-gray-600">Physical Therapy Patient</div>
+                  <div className="font-semibold text-medical-dark">Robert Smith</div>
+                  <div className="text-sm text-medical-muted">Physical Therapy Patient</div>
                 </div>
               </div>
             </div>
             
-            <div className="bg-white p-6 rounded-lg shadow-sm border-l-4 border-blue-500">
+            <div className="bg-white p-6 rounded-lg shadow-sm border-l-4 border-medical-primary hover:shadow-md transition-shadow">
               <div className="flex text-yellow-400 mb-4">
                 {[...Array(5)].map((_, i) => (
                   <svg key={i} className="w-5 h-5 fill-current" viewBox="0 0 20 20">
@@ -198,21 +159,21 @@ export default function ReviewsTestimonials() {
                   </svg>
                 ))}
               </div>
-              <blockquote className="text-medium text-gray-700 mb-4">
+              <blockquote className="text-medium text-medical-muted mb-4">
                 "I'm so grateful for the occupational therapy services. The therapist helped me adapt my home and learn new ways to do everyday tasks independently."
               </blockquote>
               <div className="flex items-center">
-                <div className="w-10 h-10 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold text-sm mr-3">
+                <div className="w-10 h-10 bg-medical-primary rounded-full flex items-center justify-center text-white font-bold text-sm mr-3">
                   ED
                 </div>
                 <div>
-                  <div className="font-semibold text-gray-800">Elizabeth Davis</div>
-                  <div className="text-sm text-gray-600">Occupational Therapy Patient</div>
+                  <div className="font-semibold text-medical-dark">Elizabeth Davis</div>
+                  <div className="text-sm text-medical-muted">Occupational Therapy Patient</div>
                 </div>
               </div>
             </div>
             
-            <div className="bg-white p-6 rounded-lg shadow-sm border-l-4 border-purple-500">
+            <div className="bg-white p-6 rounded-lg shadow-sm border-l-4 border-medical-secondary hover:shadow-md transition-shadow">
               <div className="flex text-yellow-400 mb-4">
                 {[...Array(5)].map((_, i) => (
                   <svg key={i} className="w-5 h-5 fill-current" viewBox="0 0 20 20">
@@ -220,21 +181,21 @@ export default function ReviewsTestimonials() {
                   </svg>
                 ))}
               </div>
-              <blockquote className="text-medium text-gray-700 mb-4">
+              <blockquote className="text-medium text-medical-muted mb-4">
                 "The speech therapy sessions were incredibly helpful. My communication skills improved significantly, and I feel more confident in social situations."
               </blockquote>
               <div className="flex items-center">
-                <div className="w-10 h-10 bg-purple-500 rounded-full flex items-center justify-center text-white font-bold text-sm mr-3">
+                <div className="w-10 h-10 bg-medical-secondary rounded-full flex items-center justify-center text-white font-bold text-sm mr-3">
                   MW
                 </div>
                 <div>
-                  <div className="font-semibold text-gray-800">Michael Wilson</div>
-                  <div className="text-sm text-gray-600">Speech Therapy Patient</div>
+                  <div className="font-semibold text-medical-dark">Michael Wilson</div>
+                  <div className="text-sm text-medical-muted">Speech Therapy Patient</div>
                 </div>
               </div>
             </div>
             
-            <div className="bg-white p-6 rounded-lg shadow-sm border-l-4 border-orange-500">
+            <div className="bg-white p-6 rounded-lg shadow-sm border-l-4 border-medical-accent hover:shadow-md transition-shadow">
               <div className="flex text-yellow-400 mb-4">
                 {[...Array(5)].map((_, i) => (
                   <svg key={i} className="w-5 h-5 fill-current" viewBox="0 0 20 20">
@@ -242,21 +203,21 @@ export default function ReviewsTestimonials() {
                   </svg>
                 ))}
               </div>
-              <blockquote className="text-medium text-gray-700 mb-4">
+              <blockquote className="text-medium text-medical-muted mb-4">
                 "The medical social worker provided invaluable support during my recovery. They helped me navigate insurance and connected me with community resources."
               </blockquote>
               <div className="flex items-center">
-                <div className="w-10 h-10 bg-orange-500 rounded-full flex items-center justify-center text-white font-bold text-sm mr-3">
+                <div className="w-10 h-10 bg-medical-accent rounded-full flex items-center justify-center text-white font-bold text-sm mr-3">
                   SJ
                 </div>
                 <div>
-                  <div className="font-semibold text-gray-800">Sarah Johnson</div>
-                  <div className="text-sm text-gray-600">Medical Social Services Patient</div>
+                  <div className="font-semibold text-medical-dark">Sarah Johnson</div>
+                  <div className="text-sm text-medical-muted">Medical Social Services Patient</div>
                 </div>
               </div>
             </div>
             
-            <div className="bg-white p-6 rounded-lg shadow-sm border-l-4 border-red-500">
+            <div className="bg-white p-6 rounded-lg shadow-sm border-l-4 border-medical-warning hover:shadow-md transition-shadow">
               <div className="flex text-yellow-400 mb-4">
                 {[...Array(5)].map((_, i) => (
                   <svg key={i} className="w-5 h-5 fill-current" viewBox="0 0 20 20">
@@ -264,21 +225,21 @@ export default function ReviewsTestimonials() {
                   </svg>
                 ))}
               </div>
-              <blockquote className="text-medium text-gray-700 mb-4">
+              <blockquote className="text-medium text-medical-muted mb-4">
                 "The skilled nursing care was outstanding. The nurses were professional, caring, and always available when we needed them."
               </blockquote>
               <div className="flex items-center">
-                <div className="w-10 h-10 bg-red-500 rounded-full flex items-center justify-center text-white font-bold text-sm mr-3">
+                <div className="w-10 h-10 bg-medical-warning rounded-full flex items-center justify-center text-white font-bold text-sm mr-3">
                   TB
                 </div>
                 <div>
-                  <div className="font-semibold text-gray-800">Thomas Brown</div>
-                  <div className="text-sm text-gray-600">Skilled Nursing Patient</div>
+                  <div className="font-semibold text-medical-dark">Thomas Brown</div>
+                  <div className="text-sm text-medical-muted">Skilled Nursing Patient</div>
                 </div>
               </div>
             </div>
             
-            <div className="bg-white p-6 rounded-lg shadow-sm border-l-4 border-indigo-500">
+            <div className="bg-white p-6 rounded-lg shadow-sm border-l-4 border-medical-error hover:shadow-md transition-shadow">
               <div className="flex text-yellow-400 mb-4">
                 {[...Array(5)].map((_, i) => (
                   <svg key={i} className="w-5 h-5 fill-current" viewBox="0 0 20 20">
@@ -286,16 +247,16 @@ export default function ReviewsTestimonials() {
                   </svg>
                 ))}
               </div>
-              <blockquote className="text-medium text-gray-700 mb-4">
+              <blockquote className="text-medium text-medical-muted mb-4">
                 "As a family member, I appreciate how the team kept us informed and involved in the care plan. The communication was excellent."
               </blockquote>
               <div className="flex items-center">
-                <div className="w-10 h-10 bg-indigo-500 rounded-full flex items-center justify-center text-white font-bold text-sm mr-3">
+                <div className="w-10 h-10 bg-medical-error rounded-full flex items-center justify-center text-white font-bold text-sm mr-3">
                   LM
                 </div>
                 <div>
-                  <div className="font-semibold text-gray-800">Lisa Martinez</div>
-                  <div className="text-sm text-gray-600">Family Member</div>
+                  <div className="font-semibold text-medical-dark">Lisa Martinez</div>
+                  <div className="text-sm text-medical-muted">Family Member</div>
                 </div>
               </div>
             </div>
@@ -304,25 +265,25 @@ export default function ReviewsTestimonials() {
       </section>
 
       {/* Leave a Review */}
-      <section className="px-[5%] py-16 md:py-24 lg:py-28 bg-gray-50">
+      <section className="px-[5%] py-16 md:py-24 lg:py-28 bg-medical-light">
         <div className="container">
           <div className="max-w-2xl mx-auto text-center">
-            <h2 className="heading-h3 mb-6 font-bold">
+            <h2 className="heading-h3 mb-6 font-bold text-medical-dark">
               Share Your Experience
             </h2>
-            <p className="text-medium mb-8">
+            <p className="text-medium mb-8 text-medical-muted">
               We value your feedback! Share your experience with our services to help other families make informed decisions.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href="/contact-us"
-                className="inline-flex items-center justify-center gap-3 rounded-button whitespace-nowrap transition-all duration-200 ease-in-out focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 border border-scheme-border bg-neutral-darkest text-white px-6 py-3 hover:bg-neutral-darker"
+                className="inline-flex items-center justify-center gap-3 rounded-button whitespace-nowrap transition-all duration-200 ease-in-out focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 border border-medical-primary bg-medical-primary text-white px-6 py-3 hover:bg-medical-dark hover:border-medical-dark"
               >
                 Leave a Review
               </a>
               <a
-                href="tel:1800-456-7890"
-                className="inline-flex items-center justify-center gap-3 rounded-button whitespace-nowrap transition-all duration-200 ease-in-out focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 border border-scheme-border bg-scheme-background text-scheme-text px-6 py-3 hover:bg-gray-100"
+                href="tel:1-818-783-4427"
+                className="inline-flex items-center justify-center gap-3 rounded-button whitespace-nowrap transition-all duration-200 ease-in-out focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 border border-scheme-border bg-scheme-background text-scheme-text px-6 py-3 hover:bg-medical-light"
               >
                 Call Us
               </a>

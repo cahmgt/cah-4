@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 :root {
-  --scheme-background: #ffffff;
-  --scheme-text: #1a1a1a;
-  --scheme-border: #e5e5e5;
+  --scheme-background: #f8fafc;
+  --scheme-text: #0f172a;
+  --scheme-border: #cbd5e1;
   --border-radius-button: 0.5rem;
   --border-radius-image: 0.75rem;
   --border-radius-carousel: 50%;
@@ -13,9 +13,9 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --scheme-background: #1a1a1a;
-    --scheme-text: #ffffff;
-    --scheme-border: #404040;
+    --scheme-background: #0f172a;
+    --scheme-text: #f1f5f9;
+    --scheme-border: #334155;
   }
 }
 

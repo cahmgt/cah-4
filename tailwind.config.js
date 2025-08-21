@@ -11,7 +11,17 @@ module.exports = {
         'scheme-background': 'var(--scheme-background)',
         'scheme-text': 'var(--scheme-text)',
         'scheme-border': 'var(--scheme-border)',
-        'neutral-darkest': '#1a1a1a',
+        'neutral-darkest': '#0f172a',
+        // Professional Medical Color Palette
+        'medical-primary': '#0ea5e9',      // Bright blue
+        'medical-secondary': '#10b981',    // Emerald green
+        'medical-accent': '#3b82f6',       // Blue accent
+        'medical-success': '#059669',       // Success green
+        'medical-warning': '#f59e0b',      // Warning amber
+        'medical-error': '#dc2626',        // Error red
+        'medical-light': '#f0f9ff',        // Light blue background
+        'medical-dark': '#0c4a6e',         // Dark blue
+        'medical-muted': '#64748b',        // Muted text
       },
       fontFamily: {
         'heading-h1': ['var(--font-heading-h1)'],

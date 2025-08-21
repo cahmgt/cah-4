@@ -8,16 +8,16 @@ export default function Testimonials() {
 
   const testimonials = [
     {
-      logo: "https://d22po4pjz3o32e.cloudfront.net/webflow-logo.svg",
+      logo: "/gims/013.png",
       quote: "The care my mother received was exceptional. The team was compassionate and attentive, making a difficult time much easier for our family.",
-      avatar: "https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg",
+      avatar: "/gims/014.png",
       name: "Emily Johnson",
       role: "Daughter, Happy Client"
     },
     {
-      logo: "https://d22po4pjz3o32e.cloudfront.net/webflow-logo.svg",
+      logo: "/gims/015.png",
       quote: "The care my mother received was exceptional. The team was compassionate and attentive, making a difficult time much easier for our family.",
-      avatar: "https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg",
+      avatar: "/gims/016.png",
       name: "Emily Johnson",
       role: "Daughter, Happy Client"
     }
@@ -48,11 +48,11 @@ export default function Testimonials() {
                     <div className="mb-6 md:mb-8">
                       <img
                         src={testimonial.logo}
-                        alt={`Logo ${index + 1}`}
-                        className="max-h-14"
+                        alt={`CAHMGT Logo ${index + 1}`}
+                        className="max-h-14 object-contain"
                       />
                     </div>
-                    <blockquote className="heading-h5 font-bold">
+                    <blockquote className="heading-h5 font-bold text-medical-dark">
                       &quot;{testimonial.quote}&quot;
                     </blockquote>
                     <div className="mt-6 flex flex-col items-center justify-center md:mt-8">
@@ -63,8 +63,8 @@ export default function Testimonials() {
                           className="size-16 min-h-16 min-w-16 rounded-full object-cover"
                         />
                       </div>
-                      <p className="font-semibold">{testimonial.name}</p>
-                      <p>{testimonial.role}</p>
+                      <p className="font-semibold text-medical-dark">{testimonial.name}</p>
+                      <p className="text-medical-muted">{testimonial.role}</p>
                     </div>
                   </div>
                 </div>
@@ -73,17 +73,17 @@ export default function Testimonials() {
             
             <button
               onClick={prevSlide}
-              className="items-center justify-center gap-3 rounded-button whitespace-nowrap transition-all duration-200 ease-in-out focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 border border-scheme-border bg-scheme-background text-scheme-text absolute size-14 rounded-carousel top-1/2 left-0 -translate-y-1/2 mt-8 hidden md:flex md:size-14 hover:bg-gray-50"
+              className="items-center justify-center gap-3 rounded-button whitespace-nowrap transition-all duration-200 ease-in-out focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 border border-medical-primary bg-scheme-background text-medical-primary absolute size-14 rounded-carousel top-1/2 left-0 -translate-y-1/2 mt-8 hidden md:flex md:size-14 hover:bg-medical-light hover:border-medical-dark"
             >
-              <ChevronLeft className="size-6 text-scheme-text" />
+              <ChevronLeft className="size-6 text-medical-primary" />
               <span className="sr-only">Previous slide</span>
             </button>
             
             <button
               onClick={nextSlide}
-              className="items-center justify-center gap-3 rounded-button whitespace-nowrap transition-all duration-200 ease-in-out focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 border border-scheme-border bg-scheme-background text-scheme-text absolute size-14 rounded-carousel top-1/2 right-0 -translate-y-1/2 mt-8 hidden md:flex md:size-14 hover:bg-gray-50"
+              className="items-center justify-center gap-3 rounded-button whitespace-nowrap transition-all duration-200 ease-in-out focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 border border-medical-primary bg-scheme-background text-medical-primary absolute size-14 rounded-carousel top-1/2 right-0 -translate-y-1/2 mt-8 hidden md:flex md:size-14 hover:bg-medical-light hover:border-medical-dark"
             >
-              <ChevronRight className="size-6 text-scheme-text" />
+              <ChevronRight className="size-6 text-medical-primary" />
               <span className="sr-only">Next slide</span>
             </button>
           </div>
@@ -94,7 +94,7 @@ export default function Testimonials() {
                 key={index}
                 onClick={() => setCurrentSlide(index)}
                 className={`relative mx-[3px] inline-block size-2 rounded-full transition-colors ${
-                  index === currentSlide ? 'bg-scheme-text' : 'bg-scheme-text/20'
+                  index === currentSlide ? 'bg-medical-primary' : 'bg-medical-primary/20'
                 }`}
               />
             ))}
