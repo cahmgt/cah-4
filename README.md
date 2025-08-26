@@ -1,4 +1,4 @@
-# CAHMGT - Home Health Care Agency
+# California Healthcare Management Group - Home Health Care Agency
 
 A modern, responsive website for a home health care agency built with Next.js, React, TypeScript, and Tailwind CSS.
 

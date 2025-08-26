@@ -53,14 +53,14 @@ export default function TermsOfService() {
               <div className="mb-12">
                 <h2 className="heading-h3 mb-6 font-bold">1. Acceptance of Terms</h2>
                 <p className="text-medium mb-4">
-                  By accessing and using the services provided by CAHMGT, you accept and agree to be bound by the terms and provision of this agreement. If you do not agree to abide by the above, please do not use this service.
+                  By accessing and using the services provided by California Healthcare Management Group, you accept and agree to be bound by the terms and provision of this agreement. If you do not agree to abide by the above, please do not use this service.
                 </p>
               </div>
 
               <div className="mb-12">
                 <h2 className="heading-h3 mb-6 font-bold">2. Description of Service</h2>
                 <p className="text-medium mb-4">
-                  CAHMGT provides home health care services including but not limited to skilled nursing, physical therapy, occupational therapy, speech therapy, and medical social services. Our services are designed to provide professional healthcare in the comfort of your home.
+                  California Healthcare Management Group provides home health care services including but not limited to skilled nursing, physical therapy, occupational therapy, speech therapy, and medical social services. Our services are designed to provide professional healthcare in the comfort of your home.
                 </p>
               </div>
 
@@ -109,7 +109,7 @@ export default function TermsOfService() {
               <div className="mb-12">
                 <h2 className="heading-h3 mb-6 font-bold">8. Limitation of Liability</h2>
                 <p className="text-medium mb-4">
-                  CAHMGT provides healthcare services in accordance with professional standards. However, we cannot guarantee specific outcomes, and we are not liable for any indirect, incidental, or consequential damages arising from the use of our services.
+                  California Healthcare Management Group provides healthcare services in accordance with professional standards. However, we cannot guarantee specific outcomes, and we are not liable for any indirect, incidental, or consequential damages arising from the use of our services.
                 </p>
               </div>
 

@@ -62,7 +62,7 @@ export default function SkilledNursing() {
               <img
                 src="/gims/031.png"
                 className="w-full rounded-image object-cover shadow-lg"
-                alt="CAHMGT Skilled Nursing Care - Professional registered nurses providing expert medical care in the comfort of your home"
+                alt="California Healthcare Management Group Skilled Nursing Care - Professional registered nurses providing expert medical care in the comfort of your home"
               />
             </div>
           </div>
@@ -175,7 +175,7 @@ export default function SkilledNursing() {
                 Schedule Consultation
               </a>
               <a
-                href="tel:1-818-783-4427"
+                href="tel:818-783-4427"
                 className="inline-flex items-center justify-center gap-3 rounded-button whitespace-nowrap transition-all duration-200 ease-in-out focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 border border-scheme-border bg-scheme-background text-scheme-text px-6 py-3 hover:bg-medical-light"
               >
                 Call Now

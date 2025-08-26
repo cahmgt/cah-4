@@ -69,7 +69,7 @@ export default function ResourcesBlog() {
                   <img
                     src="/gims/024.png"
                     className="w-full h-64 md:h-full object-cover"
-                    alt="CAHMGT Featured Article - The Benefits of Home Health Care: Why Choose Care at Home?"
+                    alt="California Healthcare Management Group Featured Article - The Benefits of Home Health Care: Why Choose Care at Home?"
                   />
                 </div>
                 <div className="md:w-1/2 p-8">
@@ -179,7 +179,7 @@ export default function ResourcesBlog() {
               <img
                 src="/gims/025.png"
                 className="w-full h-48 object-cover"
-                alt="CAHMGT Article - Understanding Physical Therapy: What to Expect"
+                alt="California Healthcare Management Group Article - Understanding Physical Therapy: What to Expect"
               />
               <div className="p-6">
                 <div className="text-sm text-medical-muted mb-2">December 15, 2024</div>
@@ -202,7 +202,7 @@ export default function ResourcesBlog() {
               <img
                 src="/gims/026.png"
                 className="w-full h-48 object-cover"
-                alt="CAHMGT Article - Nutrition Tips for Seniors: Eating Well at Home"
+                alt="California Healthcare Management Group Article - Nutrition Tips for Seniors: Eating Well at Home"
               />
               <div className="p-6">
                 <div className="text-sm text-medical-muted mb-2">December 10, 2024</div>
@@ -225,7 +225,7 @@ export default function ResourcesBlog() {
               <img
                 src="/gims/027.png"
                 className="w-full h-48 object-cover"
-                alt="CAHMGT Article - Managing Chronic Conditions: A Caregiver's Guide"
+                alt="California Healthcare Management Group Article - Managing Chronic Conditions: A Caregiver's Guide"
               />
               <div className="p-6">
                 <div className="text-sm text-medical-muted mb-2">December 5, 2024</div>
@@ -248,7 +248,7 @@ export default function ResourcesBlog() {
               <img
                 src="/gims/028.png"
                 className="w-full h-48 object-cover"
-                alt="CAHMGT Article - Speech Therapy: Improving Communication at Home"
+                alt="California Healthcare Management Group Article - Speech Therapy: Improving Communication at Home"
               />
               <div className="p-6">
                 <div className="text-sm text-medical-muted mb-2">November 30, 2024</div>
@@ -271,7 +271,7 @@ export default function ResourcesBlog() {
               <img
                 src="/gims/029.png"
                 className="w-full h-48 object-cover"
-                alt="CAHMGT Article - Fall Prevention: Keeping Your Home Safe"
+                alt="California Healthcare Management Group Article - Fall Prevention: Keeping Your Home Safe"
               />
               <div className="p-6">
                 <div className="text-sm text-medical-muted mb-2">November 25, 2024</div>
@@ -294,7 +294,7 @@ export default function ResourcesBlog() {
               <img
                 src="/gims/030.png"
                 className="w-full h-48 object-cover"
-                alt="CAHMGT Article - The Role of Occupational Therapy in Daily Living"
+                alt="California Healthcare Management Group Article - The Role of Occupational Therapy in Daily Living"
               />
               <div className="p-6">
                 <div className="text-sm text-medical-muted mb-2">November 20, 2024</div>

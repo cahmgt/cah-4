@@ -42,22 +42,25 @@ export default function Footer() {
             <div className="mb-6 md:mb-8">
               <Link href="/" className="flex items-center">
                 <div className="text-2xl font-bold text-medical-primary">
-                  CAHMGT
+                  California Healthcare Management Group
                 </div>
               </Link>
             </div>
             <div className="mb-6 md:mb-8">
               <p className="text-small mb-1 font-semibold text-medical-dark">Address:</p>
               <p className="text-small mb-5 md:mb-6 text-medical-muted">
-                Level 1, 12 Sample St, Los Angeles, CA 90001
+                17337 Ventura Blvd, Suite 202, Encino, CA 91316
               </p>
               <p className="text-small mb-1 font-semibold text-medical-dark">Contact:</p>
               <a href="tel:18187834427" className="text-small block underline text-medical-primary hover:text-medical-dark transition-colors">
-                1-818-783-4427
+                818-783-4427
               </a>
               <a href="mailto:info@cahmgt.com" className="text-small block underline text-medical-primary hover:text-medical-dark transition-colors">
                 info@cahmgt.com
               </a>
+              <p className="text-small text-medical-muted">
+                Fax: 818-906-9101
+              </p>
               <a href="https://www.cahmgt.com" className="text-small block underline text-medical-primary hover:text-medical-dark transition-colors">
                 www.cahmgt.com
               </a>

@@ -123,7 +123,7 @@ export default function PrivacyPolicy() {
                   If you have questions about this privacy policy or our privacy practices, please contact us:
                 </p>
                 <div className="bg-gray-50 p-6 rounded-lg">
-                  <p className="mb-2"><strong>Address:</strong> Level 1, 12 Sample St, Los Angeles, CA 90001</p>
+                  <p className="mb-2"><strong>Address:</strong> 17337 Ventura Blvd, Suite 202, Encino, CA 91316</p>
                   <p className="mb-2"><strong>Phone:</strong> <a href="tel:1800-456-7890" className="text-blue-600 hover:underline">1-800-456-7890</a></p>
                   <p className="mb-2"><strong>Email:</strong> <a href="mailto:privacy@cah4.com" className="text-blue-600 hover:underline">privacy@cah4.com</a></p>
                 </div>

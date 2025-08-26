@@ -13,7 +13,7 @@ export default function Header() {
         <div className="flex min-h-16 items-center justify-between px-[5%] md:min-h-18 lg:min-h-full lg:px-0">
           <Link href="/" className="flex items-center">
             <div className="text-2xl font-bold text-medical-primary">
-              CAHMGT
+              California Healthcare Management Group
             </div>
           </Link>
           <div className="flex items-center gap-4 lg:hidden">

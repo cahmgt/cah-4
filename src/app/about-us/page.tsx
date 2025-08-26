@@ -53,6 +53,11 @@ export default function AboutUs() {
                 </div>
               </div>
               
+              <h4 className="text-xl font-bold mt-8 mb-4 text-medical-dark">Full Continuum of Care</h4>
+              <p className="mb-4 text-medical-muted">
+                At California Healthcare Management Group, we provide a full continuum of care designed to meet both short- and long-term health needs in the comfort of home. Our licensed nurses and therapists deliver compassionate, skilled services with professionalism and dignity, drawing on decades of experience in hospital and home health settings. As a family-owned agency trusted since 2013, we bring a personal touch and consistency, with many of our clinicians joining us from the very beginning. Backed by Medicare certification and Joint Commission accreditation, we combine trusted expertise with innovative tools such as electronic health records and telehealth to enhance safety, communication, and outcomes. In addition to skilled nursing and therapy, we assist with arranging medical equipment, lab tests, mobile radiology, podiatry, and other healthcare services to ensure all patient needs are met. We also work closely with physicians to coordinate care, giving families peace of mind that their loved ones are fully supported at every step.
+              </p>
+              
               <h4 className="text-xl font-bold mt-8 mb-4 text-medical-dark">Nursing Specialties</h4>
               <p className="mb-4 text-medical-muted">California Healthcare Management Group specializes in Home Care for patients with the following diagnoses:</p>
               <div className="grid md:grid-cols-2 gap-4 mb-6">

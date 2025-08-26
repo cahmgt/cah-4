@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import { Home, Users, Activity, Heart, Syringe, Stethoscope, Pill, Scissors, Microscope, Camera } from 'lucide-react'
 
 export default function Services() {
@@ -41,7 +42,7 @@ export default function Services() {
     {
       icon: <Syringe className="size-12 text-medical-accent" />,
       title: "IV Therapy",
-      description: "Specialized intravenous therapy services provided in the comfort of your home.",
+      description: "Our IV therapy services are designed to provide safe, effective, and convenient care in the comfort of your home. Administered by our team of highly skilled Registered Nurses—with many years of hospital experience in phlebotomy and IV therapy—each infusion is delivered with the highest level of clinical expertise and care. Under the guidance of our clinical leadership, IV therapy delivers vital fluids, vitamins, and medications directly into the bloodstream for faster absorption and improved results. Whether prescribed for hydration, immune support, recovery after illness or surgery, or the management of chronic conditions, our personalized IV treatments help patients feel stronger, recover quicker, and maintain their health without the need for repeated hospital visits. By bringing this level of professional care to your doorstep, we ensure comfort, safety, and continuity of treatment tailored to each patient's medical needs.",
       link: "/iv-therapy",
       image: "/gims/009.png"
     }
@@ -78,9 +79,11 @@ export default function Services() {
           {services.map((service, index) => (
             <div key={index} className="p-6 rounded-lg border border-scheme-border hover:border-medical-primary transition-colors overflow-hidden group">
               <div className="relative mb-5 md:mb-6">
-                <img 
+                <Image 
                   src={service.image} 
-                  alt={`${service.title} - CAHMGT Healthcare Services`}
+                  alt={`${service.title} - California Healthcare Management Group Healthcare Services`}
+                  width={400}
+                  height={128}
                   className="w-full h-32 object-cover rounded-lg group-hover:scale-105 transition-transform duration-300"
                 />
                 <div className="absolute top-3 right-3 bg-white/90 rounded-full p-2">

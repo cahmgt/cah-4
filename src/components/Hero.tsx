@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default function Hero() {
   return (
@@ -39,10 +40,13 @@ export default function Hero() {
           </div>
         </div>
         <div>
-          <img
+          <Image
             src="/gims/026.png"
+            alt="California Healthcare Management Group Home Health Care Services - Professional healthcare team providing compassionate care"
+            width={1200}
+            height={600}
             className="w-full rounded-image object-cover"
-            alt="CAHMGT Home Health Care Services - Professional healthcare team providing compassionate care"
+            priority
           />
         </div>
       </div>

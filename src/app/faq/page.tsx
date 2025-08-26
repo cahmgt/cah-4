@@ -56,7 +56,7 @@ export default function FAQ() {
                   What services does your home health care agency provide?
                 </h3>
                 <p className="text-medium">
-                  We provide a comprehensive range of home health care services including skilled nursing, physical therapy, occupational therapy, speech therapy, medical social services, and home health aide services. All services are provided in the comfort of your own home.
+                  We offer a comprehensive range of services including skilled nursing, physical therapy, occupational therapy, speech therapy, medical social services, and home health aide support. All care is provided in the comfort and safety of your own home.
                 </p>
               </div>
 
@@ -66,17 +66,17 @@ export default function FAQ() {
                   How do I know if home health care is right for me or my loved one?
                 </h3>
                 <p className="text-medium">
-                  Home health care is ideal for individuals who need skilled medical care but prefer to receive it at home. It's often recommended after hospitalization, for chronic conditions, or when mobility is limited. Our team can assess your specific situation and recommend the best care plan.
+                  Home health care is ideal for anyone who needs skilled medical attention but prefers to remain at home. It's often recommended after a hospital stay, for managing chronic conditions, or when mobility is limited. Our clinical team will assess your needs and recommend a personalized care plan.
                 </p>
               </div>
 
               {/* FAQ Item 3 */}
               <div className="border-b border-scheme-border pb-8">
                 <h3 className="text-xl font-bold mb-4">
-                  Are your caregivers licensed and insured?
+                  Are all your nurses and therapists licensed?
                 </h3>
                 <p className="text-medium">
-                  Yes, all our caregivers are licensed, certified, and insured. We conduct thorough background checks and ensure all staff meet state and federal requirements. Our team includes registered nurses, licensed therapists, and certified home health aides.
+                  Yes. All of our Registered Nurses (RNs) and Licensed Vocational Nurses (LVNs) hold current licenses from the State of California. In addition, our licensed therapists (physical, occupational, and speech) are certified in their respective fields, ensuring you receive safe, professional, and compliant care.
                 </p>
               </div>
 
@@ -86,7 +86,7 @@ export default function FAQ() {
                   How much does home health care cost?
                 </h3>
                 <p className="text-medium">
-                  Costs vary depending on the type and frequency of services needed. Many services are covered by Medicare, Medicaid, and private insurance. We can help you understand your coverage and provide a detailed cost estimate during your initial consultation.
+                  The cost depends on the type and frequency of services required. Many services are covered by Medicare, Medi-Cal, and private insurance. During your initial consultation, we'll review your coverage and provide a clear estimate of any out-of-pocket costs.
                 </p>
               </div>
 
@@ -96,7 +96,7 @@ export default function FAQ() {
                   How quickly can you start providing services?
                 </h3>
                 <p className="text-medium">
-                  We can typically begin services within 24-48 hours of your initial contact. For urgent situations, we can often start the same day. We'll work with you to schedule services at times that are most convenient for you and your family.
+                  In most cases, we can begin services within 24–48 hours of your initial contact. For urgent needs, same-day service may be available. We'll work with you to schedule visits at times that are convenient for you and your family.
                 </p>
               </div>
 
@@ -106,7 +106,7 @@ export default function FAQ() {
                   What areas do you serve?
                 </h3>
                 <p className="text-medium">
-                  We serve the greater Los Angeles area and surrounding communities. Contact us to confirm coverage in your specific location. We're committed to providing care to as many families as possible within our service area.
+                  We proudly serve Los Angeles, Orange, Ventura, San Bernardino, and Riverside Counties. Please contact us to confirm availability in your specific location.
                 </p>
               </div>
 
@@ -116,17 +116,17 @@ export default function FAQ() {
                   Can family members be involved in the care plan?
                 </h3>
                 <p className="text-medium">
-                  Absolutely! We encourage family involvement and can provide training for family members on how to assist with care. We believe that family participation leads to better outcomes and more comfortable care experiences.
+                  Absolutely. We encourage family involvement and provide training when needed so loved ones can confidently support the patient's care. We believe family participation improves comfort and leads to better outcomes.
                 </p>
               </div>
 
               {/* FAQ Item 8 */}
               <div className="pb-8">
                 <h3 className="text-xl font-bold mb-4">
-                  How do I get started with your services?
+                  How do I get started?
                 </h3>
                 <p className="text-medium">
-                  Getting started is easy! Simply contact us by phone or through our website. We'll schedule a free consultation to assess your needs, discuss your care options, and create a personalized care plan. We'll also help you understand insurance coverage and payment options.
+                  Getting started is simple. Contact us by phone or through our website to schedule a free consultation. We'll assess your needs, discuss your care options, explain insurance coverage, and create a personalized care plan tailored to you.
                 </p>
               </div>
             </div>

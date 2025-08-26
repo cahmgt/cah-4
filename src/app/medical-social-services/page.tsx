@@ -10,99 +10,56 @@ export default function MedicalSocialServices() {
       <section className="px-[5%] py-16 md:py-24 lg:py-28">
         <div className="container">
           <div className="mx-auto mb-12 flex w-full max-w-lg flex-col items-start justify-start md:mb-16 lg:mb-20">
-            <nav
-              data-slot="breadcrumb"
-              aria-label="breadcrumb"
-              className="mb-6 flex w-full items-center"
-            >
-              <ol className="flex flex-wrap items-center gap-1.5 break-words text-medical-muted sm:gap-2">
-                <li className="inline-flex items-center gap-1.5">
-                  <a className="text-medical-primary hover:text-medical-dark transition-colors" href="/">Home</a>
-                </li>
-                <li className="text-medical-muted [&>svg]:size-4">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24px"
-                    height="24px"
-                    viewBox="0 -960 960 960"
-                    fill="currentColor"
-                  >
-                    <path d="M504-480 348-636q-11-11-11-28t11-28q11-11 28-11t28 11l184 184q6 6 8.5 13t2.5 15q0 8-2.5 15t-8.5 13L404-268q-11 11-28 11t-28-11q-11-11-11-28t11-28l156-156Z" />
-                  </svg>
-                </li>
-                <li className="inline-flex items-center gap-1.5">
-                  <a className="text-medical-primary hover:text-medical-dark transition-colors" href="/services">Services</a>
-                </li>
-                <li className="text-medical-muted [&>svg]:size-4">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24px"
-                    height="24px"
-                    viewBox="0 -960 960 960"
-                    fill="currentColor"
-                  >
-                    <path d="M504-480 348-636q-11-11-11-28t11-28q11-11 28-11t28 11l184 184q6 6 8.5 13t2.5 15q0 8-2.5 15t-8.5 13L404-268q-11 11-28 11t-28-11q-11-11-11-28t11-28l156-156Z" />
-                  </svg>
-                </li>
-                <li className="inline-flex items-center gap-1.5">
-                  <span className="text-medical-dark">Medical Social Services</span>
-                </li>
-              </ol>
-            </nav>
-            <h1 className="heading-h2 mb-8 font-bold md:mb-10 lg:mb-12 text-medical-dark">
-              Medical Social Services
-            </h1>
-            <p className="text-medium text-medical-muted">
-              Professional social work support to help you navigate healthcare systems, access resources, and address emotional and social challenges during your recovery.
-            </p>
-          </div>
-        </div>
-      </section>
 
-      {/* Service Overview */}
-      <section className="px-[5%] py-16 md:py-24 lg:py-28">
-        <div className="container">
-          <div className="grid grid-cols-1 gap-x-20 gap-y-12 md:gap-y-16 lg:grid-cols-2 lg:items-center">
-            <div>
-              <h2 className="heading-h3 mb-6 font-bold text-medical-dark">
-                How Medical Social Services Help
-              </h2>
-              <p className="text-medium mb-6 text-medical-muted">
-                Our licensed medical social workers provide comprehensive support to help you and your family navigate the complex healthcare system and access the resources you need for optimal recovery.
-              </p>
-              <ul className="space-y-3">
-                <li className="flex items-start">
-                  <svg className="w-5 h-5 text-medical-success mt-0.5 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                  </svg>
-                  <span className="text-medical-dark">Healthcare navigation and advocacy</span>
-                </li>
-                <li className="flex items-start">
-                  <svg className="w-5 h-5 text-medical-success mt-0.5 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                  </svg>
-                  <span className="text-medical-dark">Resource coordination and referrals</span>
-                </li>
-                <li className="flex items-start">
-                  <svg className="w-5 h-5 text-medical-success mt-0.5 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                  </svg>
-                  <span className="text-medical-dark">Emotional and psychological support</span>
-                </li>
-                <li className="flex items-start">
-                  <svg className="w-5 h-5 text-medical-success mt-0.5 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                  </svg>
-                  <span className="text-medical-dark">Family counseling and education</span>
-                </li>
-              </ul>
-            </div>
-            <div>
-              <img
-                src="/gims/033.png"
-                className="w-full rounded-image object-cover shadow-lg"
-                alt="CAHMGT Medical Social Services - Professional social workers providing healthcare navigation, resource coordination, and emotional support"
-              />
+            <h1 className="heading-h2 mb-8 font-bold md:mb-10 lg:mb-12 text-medical-dark">
+              How Medical Social Services Help
+            </h1>
+            <p className="text-medium text-medical-muted mb-6">
+              Our licensed medical social workers provide comprehensive support to help you and your family navigate the complex healthcare system and access the resources you need for optimal recovery.
+            </p>
+            <ul className="space-y-3 mb-8">
+              <li className="flex items-start">
+                <svg className="w-5 h-5 text-medical-success mt-0.5 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                </svg>
+                <span className="text-medical-dark">Healthcare navigation and advocacy</span>
+              </li>
+              <li className="flex items-start">
+                <svg className="w-5 h-5 text-medical-success mt-0.5 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                </svg>
+                <span className="text-medical-dark">Resource coordination and referrals</span>
+              </li>
+              <li className="flex items-start">
+                <svg className="w-5 h-5 text-medical-success mt-0.5 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                </svg>
+                <span className="text-medical-dark">Emotional and psychological support</span>
+              </li>
+              <li className="flex items-start">
+                <svg className="w-5 h-5 text-medical-success mt-0.5 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                </svg>
+                <span className="text-medical-dark">Family counseling and education</span>
+              </li>
+            </ul>
+            
+            <div className="grid grid-cols-1 gap-x-20 gap-y-12 md:gap-y-16 lg:grid-cols-2 lg:items-center">
+              <div>
+                <h2 className="heading-h3 mb-6 font-bold text-medical-dark">
+                  What We Do
+                </h2>
+                <p className="text-medium mb-6 text-medical-muted">
+                  Our medical social workers are here to support you through every step of your healthcare journey, providing guidance, resources, and emotional support when you need it most.
+                </p>
+              </div>
+              <div>
+                <img
+                  src="/gims/033.png"
+                  className="w-full rounded-image object-cover shadow-lg"
+                  alt="California Healthcare Management Group Medical Social Services - Professional social workers providing healthcare navigation, resource coordination, and emotional support"
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -278,7 +235,7 @@ export default function MedicalSocialServices() {
                 Get Support
               </a>
               <a
-                href="tel:1-818-783-4427"
+                href="tel:818-783-4427"
                 className="inline-flex items-center justify-center gap-3 rounded-button whitespace-nowrap transition-all duration-200 ease-in-out focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 border border-scheme-border bg-scheme-background text-scheme-text px-6 py-3 hover:bg-medical-light"
               >
                 Call Now

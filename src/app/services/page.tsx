@@ -1,5 +1,6 @@
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
+import Image from 'next/image'
 
 export default function Services() {
   return (
@@ -27,9 +28,11 @@ export default function Services() {
             {/* Physical Therapy */}
             <div className="flex size-full flex-col items-start justify-start text-start bg-white p-6 rounded-lg border border-scheme-border hover:border-medical-primary transition-colors shadow-sm">
               <a href="/physical-therapy" className="mb-6 w-full">
-                <img
+                <Image
                   src="/gims/018.png"
-                  alt="CAHMGT Physical Therapy - Professional home physical therapy services for recovery and rehabilitation"
+                  alt="California Healthcare Management Group Physical Therapy - Professional home physical therapy services for recovery and rehabilitation"
+                  width={400}
+                  height={300}
                   className="aspect-[3/2] size-full rounded-image object-cover shadow-md hover:shadow-lg transition-shadow"
                 />
               </a>
@@ -47,9 +50,11 @@ export default function Services() {
             {/* Occupational Therapy */}
             <div className="flex size-full flex-col items-start justify-start text-start bg-white p-6 rounded-lg border border-scheme-border hover:border-medical-primary transition-colors shadow-sm">
               <a href="/occupational-therapy" className="mb-6 w-full">
-                <img
+                <Image
                   src="/gims/019.png"
-                  alt="CAHMGT Occupational Therapy - Helping patients develop skills for daily living and work activities"
+                  alt="California Healthcare Management Group Occupational Therapy - Helping patients develop skills for daily living and work activities"
+                  width={400}
+                  height={300}
                   className="aspect-[3/2] size-full rounded-image object-cover shadow-md hover:shadow-lg transition-shadow"
                 />
               </a>
@@ -67,9 +72,11 @@ export default function Services() {
             {/* Speech Therapy */}
             <div className="flex size-full flex-col items-start justify-start text-start bg-white p-6 rounded-lg border border-scheme-border hover:border-medical-primary transition-colors shadow-sm">
               <a href="/speech-therapy" className="mb-6 w-full">
-                <img
+                <Image
                   src="/gims/020.png"
-                  alt="CAHMGT Speech Therapy - Improving communication, swallowing, and cognitive-linguistic skills"
+                  alt="California Healthcare Management Group Speech Therapy - Improving communication, swallowing, and cognitive-linguistic skills"
+                  width={400}
+                  height={300}
                   className="aspect-[3/2] size-full rounded-image object-cover shadow-md hover:shadow-lg transition-shadow"
                 />
               </a>
@@ -87,9 +94,11 @@ export default function Services() {
             {/* Skilled Nursing */}
             <div className="flex size-full flex-col items-start justify-start text-start bg-white p-6 rounded-lg border border-scheme-border hover:border-medical-primary transition-colors shadow-sm">
               <a href="/skilled-nursing" className="mb-6 w-full">
-                <img
+                <Image
                   src="/gims/021.png"
-                  alt="CAHMGT Skilled Nursing - Professional nursing care including wound care, medication management, and health monitoring"
+                  alt="California Healthcare Management Group Skilled Nursing - Professional nursing care including wound care, medication management, and health monitoring"
+                  width={400}
+                  height={300}
                   className="aspect-[3/2] size-full rounded-image object-cover shadow-md hover:shadow-lg transition-shadow"
                 />
               </a>
@@ -107,9 +116,11 @@ export default function Services() {
             {/* Medical Social Services */}
             <div className="flex size-full flex-col items-start justify-start text-start bg-white p-6 rounded-lg border border-scheme-border hover:border-medical-primary transition-colors shadow-sm">
               <a href="/medical-social-services" className="mb-6 w-full">
-                <img
+                <Image
                   src="/gims/022.png"
-                  alt="CAHMGT Medical Social Services - Support with care coordination, community resources, and emotional support"
+                  alt="California Healthcare Management Group Medical Social Services - Support with care coordination, community resources, and emotional support"
+                  width={400}
+                  height={300}
                   className="aspect-[3/2] size-full rounded-image object-cover shadow-md hover:shadow-lg transition-shadow"
                 />
               </a>
@@ -127,9 +138,11 @@ export default function Services() {
             {/* Home Health Aides */}
             <div className="flex size-full flex-col items-start justify-start text-start bg-white p-6 rounded-lg border border-scheme-border hover:border-medical-primary transition-colors shadow-sm">
               <a href="#" className="mb-6 w-full">
-                <img
+                <Image
                   src="/gims/023.png"
-                  alt="CAHMGT Home Health Aides - Personal care assistance with daily activities and companionship"
+                  alt="California Healthcare Management Group Home Health Aides - Personal care assistance with daily activities and companionship"
+                  width={400}
+                  height={300}
                   className="aspect-[3/2] size-full rounded-image object-cover shadow-md hover:shadow-lg transition-shadow"
                 />
               </a>

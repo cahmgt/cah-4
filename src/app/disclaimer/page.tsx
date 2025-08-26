@@ -103,7 +103,7 @@ export default function Disclaimer() {
               <div className="mb-12">
                 <h2 className="heading-h3 mb-6 font-bold">8. Limitation of Liability</h2>
                 <p className="text-medium mb-4">
-                  In no event shall CAHMGT Home Health Care Agency, its directors, employees, partners, agents, suppliers, or affiliates be liable for any indirect, incidental, special, consequential, or punitive damages, including without limitation, loss of profits, data, use, goodwill, or other intangible losses, resulting from your use of our services.
+                  In no event shall California Healthcare Management Group Home Health Care Agency, its directors, employees, partners, agents, suppliers, or affiliates be liable for any indirect, incidental, special, consequential, or punitive damages, including without limitation, loss of profits, data, use, goodwill, or other intangible losses, resulting from your use of our services.
                 </p>
               </div>
 
@@ -123,7 +123,7 @@ export default function Disclaimer() {
                   If you have any questions about this disclaimer, please contact us:
                 </p>
                 <div className="bg-gray-50 p-6 rounded-lg">
-                  <p className="mb-2"><strong>Address:</strong> Level 1, 12 Sample St, Los Angeles, CA 90001</p>
+                  <p className="mb-2"><strong>Address:</strong> 17337 Ventura Blvd, Suite 202, Encino, CA 91316</p>
                   <p className="mb-2"><strong>Phone:</strong> <a href="tel:1800-456-7890" className="text-blue-600 hover:underline">1-800-456-7890</a></p>
                   <p className="mb-2"><strong>Email:</strong> <a href="mailto:legal@cah4.com" className="text-blue-600 hover:underline">legal@cah4.com</a></p>
                 </div>

@@ -101,7 +101,7 @@ export default function OccupationalTherapy() {
               <img
                 src="/gims/032.png"
                 className="w-full rounded-image object-cover shadow-lg"
-                alt="CAHMGT Occupational Therapy - Licensed therapists helping patients develop daily living skills in the comfort of their home"
+                alt="California Healthcare Management Group Occupational Therapy - Licensed therapists helping patients develop daily living skills in the comfort of their home"
               />
             </div>
           </div>
@@ -215,7 +215,7 @@ export default function OccupationalTherapy() {
                 Schedule Consultation
               </a>
               <a
-                href="tel:1-818-783-4427"
+                href="tel:818-783-4427"
                 className="inline-flex items-center justify-center gap-3 rounded-button whitespace-nowrap transition-all duration-200 ease-in-out focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 border border-scheme-border bg-scheme-background text-scheme-text px-6 py-3 hover:bg-medical-light"
               >
                 Call Now

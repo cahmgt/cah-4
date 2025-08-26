@@ -36,7 +36,7 @@ export default function ReviewsTestimonials() {
                 <span className="ml-3 text-lg font-semibold text-medical-dark">Featured Review</span>
               </div>
               <blockquote className="text-xl italic text-medical-dark mb-6">
-                "The care my mother received from CAHMGT was exceptional. The nurses were not only professional but also compassionate and understanding. They treated her with dignity and respect, making her recovery journey much more comfortable."
+                "The care my mother received from California Healthcare Management Group was exceptional. The nurses were not only professional but also compassionate and understanding. They treated her with dignity and respect, making her recovery journey much more comfortable."
               </blockquote>
               <div className="flex items-center">
                 <div className="w-12 h-12 bg-medical-primary rounded-full flex items-center justify-center text-white font-bold text-lg mr-4">
@@ -282,7 +282,7 @@ export default function ReviewsTestimonials() {
                 Leave a Review
               </a>
               <a
-                href="tel:1-818-783-4427"
+                href="tel:818-783-4427"
                 className="inline-flex items-center justify-center gap-3 rounded-button whitespace-nowrap transition-all duration-200 ease-in-out focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 border border-scheme-border bg-scheme-background text-scheme-text px-6 py-3 hover:bg-medical-light"
               >
                 Call Us

@@ -101,7 +101,7 @@ export default function PhysicalTherapy() {
               <img
                 src="/gims/017.png"
                 className="w-full rounded-image object-cover shadow-lg"
-                alt="CAHMGT Physical Therapy - Professional home physical therapy services for recovery and rehabilitation"
+                alt="California Healthcare Management Group Physical Therapy - Professional home physical therapy services for recovery and rehabilitation"
               />
             </div>
           </div>
