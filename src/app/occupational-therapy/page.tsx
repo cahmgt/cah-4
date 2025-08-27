@@ -6,58 +6,7 @@ export default function OccupationalTherapy() {
     <main>
       <Header />
       
-      {/* Hero Section */}
-      <section className="px-[5%] py-16 md:py-24 lg:py-28">
-        <div className="container">
-          <div className="mx-auto mb-12 flex w-full max-w-lg flex-col items-start justify-start md:mb-16 lg:mb-20">
-            <nav
-              data-slot="breadcrumb"
-              aria-label="breadcrumb"
-              className="mb-6 flex w-full items-center"
-            >
-              <ol className="flex flex-wrap items-center gap-1.5 break-words text-medical-muted sm:gap-2">
-                <li className="inline-flex items-center gap-1.5">
-                  <a className="text-medical-primary hover:text-medical-dark transition-colors" href="/">Home</a>
-                </li>
-                <li className="text-medical-muted [&>svg]:size-4">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24px"
-                    height="24px"
-                    viewBox="0 -960 960 960"
-                    fill="currentColor"
-                  >
-                    <path d="M504-480 348-636q-11-11-11-28t11-28q11-11 28-11t28 11l184 184q6 6 8.5 13t2.5 15q0 8-2.5 15t-8.5 13L404-268q-11 11-28 11t-28-11q-11-11-11-28t11-28l156-156Z" />
-                  </svg>
-                </li>
-                <li className="inline-flex items-center gap-1.5">
-                  <a className="text-medical-primary hover:text-medical-dark transition-colors" href="/services">Services</a>
-                </li>
-                <li className="text-medical-muted [&>svg]:size-4">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24px"
-                    height="24px"
-                    viewBox="0 -960 960 960"
-                    fill="currentColor"
-                  >
-                    <path d="M504-480 348-636q-11-11-11-28t11-28q11-11 28-11t28 11l184 184q6 6 8.5 13t2.5 15q0 8-2.5 15t-8.5 13L404-268q-11 11-28 11t-28-11q-11-11-11-28t11-28l156-156Z" />
-                  </svg>
-                </li>
-                <li className="inline-flex items-center gap-1.5">
-                  <span className="text-medical-dark">Occupational Therapy</span>
-                </li>
-              </ol>
-            </nav>
-            <h1 className="heading-h2 mb-8 font-bold md:mb-10 lg:mb-12 text-medical-dark">
-              Occupational Therapy at Home
-            </h1>
-            <p className="text-medium text-medical-muted">
-              Help patients develop skills for daily living and work activities in the comfort of their own home.
-            </p>
-          </div>
-        </div>
-      </section>
+
 
       {/* Service Overview */}
       <section className="px-[5%] py-16 md:py-24 lg:py-28">

@@ -7,19 +7,7 @@ export default function Services() {
     <main>
       <Header />
       
-      {/* Hero Section */}
-      <section className="px-[5%] py-16 md:py-24 lg:py-28">
-        <div className="container">
-          <div className="mx-auto mb-12 flex w-full max-w-lg flex-col items-start justify-start md:mb-16 lg:mb-20">
-            <h1 className="heading-h2 mb-8 font-bold md:mb-10 lg:mb-12 text-medical-dark">
-              Our Home Health Care Services
-            </h1>
-            <p className="text-medium text-medical-muted">
-              Comprehensive care solutions tailored to meet your family's unique needs. California Healthcare Management Group provides expert home health care services across Southern California.
-            </p>
-          </div>
-        </div>
-      </section>
+
 
       {/* Services Grid */}
       <section className="px-[5%] py-16 md:py-24 lg:py-28">

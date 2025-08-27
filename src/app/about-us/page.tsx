@@ -6,26 +6,14 @@ export default function AboutUs() {
     <main>
       <Header />
       
-      {/* Hero Section */}
-      <section className="px-[5%] py-16 md:py-24 lg:py-28">
-        <div className="container">
-          <div className="mx-auto mb-12 flex w-full max-w-lg flex-col items-start justify-start md:mb-16 lg:mb-20">
-            <h1 className="heading-h2 mb-8 font-bold md:mb-10 lg:mb-12 text-medical-dark">
-              About California Healthcare Management Group
-            </h1>
-            <p className="text-medium text-medical-muted">
-              Privately owned and operated since 2013, providing compassionate, professional care in the comfort of your home.
-            </p>
-          </div>
-        </div>
-      </section>
+
 
       {/* About Content */}
-      <section className="px-[5%] py-16 md:py-24 lg:py-28">
+      <section className="px-[5%] py-8 md:py-12 lg:py-16">
         <div className="container">
           <div className="mx-auto max-w-4xl">
-            <div className="prose-base mb-12 md:mb-20">
-              <h3 className="text-2xl font-bold mb-6 text-medical-dark">Our Mission</h3>
+            <div className="prose-base mb-8 md:mb-12">
+              <h3 className="text-2xl font-bold mb-4 text-medical-dark">Our Mission</h3>
               <p className="mb-4 text-medical-muted">
                 We are committed to delivering exceptional home health care services that enhance the quality of life for our patients and their families. Our team of skilled professionals works tirelessly to ensure that every individual receives personalized, compassionate care in the comfort of their own home.
               </p>

@@ -1,7 +1,8 @@
 {
+  "/_not-found/page": "app/_not-found/page.js",
   "/page": "app/page.js",
-  "/about-us/page": "app/about-us/page.js",
+  "/reviews/testimonials/page": "app/reviews/testimonials/page.js",
+  "/careers/page": "app/careers/page.js",
   "/contact-us/page": "app/contact-us/page.js",
-  "/medical-social-services/page": "app/medical-social-services/page.js",
-  "/reviews/testimonials/page": "app/reviews/testimonials/page.js"
+  "/about-us/page": "app/about-us/page.js"
 }

@@ -6,19 +6,7 @@ export default function SkilledNursing() {
     <main>
       <Header />
       
-      {/* Hero Section */}
-      <section className="px-[5%] py-16 md:py-24 lg:py-28">
-        <div className="container">
-          <div className="mx-auto mb-12 flex w-full max-w-lg flex-col items-start justify-start md:mb-16 lg:mb-20">
-            <h1 className="heading-h2 mb-8 font-bold md:mb-10 lg:mb-12 text-medical-dark">
-              Skilled Nursing Care at Home
-            </h1>
-            <p className="text-medium text-medical-muted">
-              Professional nursing care including wound care, medication management, and health monitoring in the comfort of your home.
-            </p>
-          </div>
-        </div>
-      </section>
+
 
       {/* Service Overview */}
       <section className="px-[5%] py-16 md:py-24 lg:py-28">

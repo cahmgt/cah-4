@@ -1,8 +1,8 @@
-// File: C:\WebFarm\cah-4\src\app\medical-social-services\page.tsx
-import * as entry from '../../../../src/app/medical-social-services/page.js'
+// File: C:\WebFarm\cah-4\src\app\careers\page.tsx
+import * as entry from '../../../../src/app/careers/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
-type TEntry = typeof import('../../../../src/app/medical-social-services/page.js')
+type TEntry = typeof import('../../../../src/app/careers/page.js')
 
 // Check that the entry is a valid entry
 checkFields<Diff<{

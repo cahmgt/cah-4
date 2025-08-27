@@ -42,7 +42,7 @@ export default function Services() {
     {
       icon: <Syringe className="size-12 text-medical-accent" />,
       title: "IV Therapy",
-      description: "Our IV therapy services are designed to provide safe, effective, and convenient care in the comfort of your home. Administered by our team of highly skilled Registered Nurses—with many years of hospital experience in phlebotomy and IV therapy—each infusion is delivered with the highest level of clinical expertise and care. Under the guidance of our clinical leadership, IV therapy delivers vital fluids, vitamins, and medications directly into the bloodstream for faster absorption and improved results. Whether prescribed for hydration, immune support, recovery after illness or surgery, or the management of chronic conditions, our personalized IV treatments help patients feel stronger, recover quicker, and maintain their health without the need for repeated hospital visits. By bringing this level of professional care to your doorstep, we ensure comfort, safety, and continuity of treatment tailored to each patient's medical needs.",
+      description: "Professional IV therapy services administered by skilled Registered Nurses in your home. Delivering vital fluids, medications, and treatments for hydration, immune support, and recovery.",
       link: "/iv-therapy",
       image: "/gims/009.png"
     }

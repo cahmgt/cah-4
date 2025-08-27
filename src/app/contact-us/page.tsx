@@ -57,19 +57,7 @@ export default function ContactUs() {
     <main>
       <Header />
       
-      {/* Hero Section */}
-      <section className="px-[5%] py-16 md:py-24 lg:py-28">
-        <div className="container">
-          <div className="mx-auto mb-12 flex w-full max-w-lg flex-col items-start justify-start md:mb-16 lg:mb-20">
-            <h1 className="heading-h2 mb-8 font-bold md:mb-10 lg:mb-12 text-medical-dark">
-              Get in Touch
-            </h1>
-            <p className="text-medium text-medical-muted">
-              We're here to help. Contact us to learn more about our services or to schedule a consultation.
-            </p>
-          </div>
-        </div>
-      </section>
+
 
       {/* Contact Form and Info */}
       <section className="px-[5%] py-16 md:py-24 lg:py-28">
