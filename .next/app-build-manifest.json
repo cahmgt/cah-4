@@ -16,6 +16,11 @@
       "static/chunks/main-app.js",
       "static/chunks/app/reviews/testimonials/page.js"
     ],
+    "/iv-therapy/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/iv-therapy/page.js"
+    ],
     "/careers/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
@@ -25,11 +30,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/contact-us/page.js"
-    ],
-    "/about-us/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/about-us/page.js"
     ],
     "/_not-found/page": [
       "static/chunks/webpack.js",

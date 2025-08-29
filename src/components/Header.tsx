@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import { ChevronDown, Menu, X } from 'lucide-react'
 
 export default function Header() {
@@ -12,9 +13,14 @@ export default function Header() {
       <div className="mx-auto size-full lg:grid lg:grid-cols-[0.375fr_1fr_0.375fr] lg:items-center lg:justify-between lg:gap-4">
         <div className="flex min-h-16 items-center justify-between px-[5%] md:min-h-18 lg:min-h-full lg:px-0">
           <Link href="/" className="flex items-center">
-            <div className="text-2xl font-bold text-medical-primary">
-              California Healthcare Management Group
-            </div>
+            <Image
+              src="/gims/image-2002.png"
+              alt="California Healthcare Management Group"
+              width={200}
+              height={80}
+              className="h-16 w-auto"
+              priority
+            />
           </Link>
           <div className="flex items-center gap-4 lg:hidden">
             <div>
@@ -48,12 +54,12 @@ export default function Header() {
             Home
           </Link>
           
-          <Link href="/about-us" className="text-regular block py-3 first:pt-7 lg:px-4 lg:py-2 first:lg:pt-2 hover:text-medical-primary transition-colors">
-            About Us
-          </Link>
-          
           <Link href="/#services" className="text-regular block py-3 first:pt-7 lg:px-4 lg:py-2 first:lg:pt-2 hover:text-medical-primary transition-colors">
             Services
+          </Link>
+          
+          <Link href="/about-us" className="text-regular block py-3 first:pt-7 lg:px-4 lg:py-2 first:lg:pt-2 hover:text-medical-primary transition-colors">
+            About Us
           </Link>
           
           <Link href="/reviews/testimonials" className="text-regular block py-3 first:pt-7 lg:px-4 lg:py-2 first:lg:pt-2 hover:text-medical-primary transition-colors">

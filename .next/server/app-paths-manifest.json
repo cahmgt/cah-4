@@ -2,7 +2,7 @@
   "/_not-found/page": "app/_not-found/page.js",
   "/page": "app/page.js",
   "/reviews/testimonials/page": "app/reviews/testimonials/page.js",
+  "/iv-therapy/page": "app/iv-therapy/page.js",
   "/careers/page": "app/careers/page.js",
-  "/contact-us/page": "app/contact-us/page.js",
-  "/about-us/page": "app/about-us/page.js"
+  "/contact-us/page": "app/contact-us/page.js"
 }
