@@ -14,7 +14,7 @@ export default function Header() {
         <div className="flex min-h-16 items-center justify-between px-[5%] md:min-h-18 lg:min-h-full lg:px-0">
           <Link href="/" className="flex items-center">
             <Image
-              src="/gims/image-2002.png"
+              src="/gims/gims-0004.webp"
               alt="California Healthcare Management Group"
               width={200}
               height={80}
