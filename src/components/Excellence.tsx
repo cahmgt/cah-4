@@ -4,7 +4,7 @@ export default function Excellence() {
   const achievements = [
     {
       icon: <Award className="w-8 h-8 text-yellow-500" />,
-      title: "Home Care Elite Top Agency",
+      title: "Joint Commission Accredited",
       description: "Recognized as one of the top-performing home health agencies in the nation",
       year: "2013-2024"
     },
@@ -16,7 +16,7 @@ export default function Excellence() {
     },
     {
       icon: <Star className="w-8 h-8 text-medical-secondary" />,
-      title: "5-Star Quality Rating",
+      title: "High Quality Rating",
       description: "Consistently achieving the highest quality ratings from CMS",
       year: "Ongoing"
     }

@@ -132,7 +132,7 @@ export default function RootLayout({
                 "Chronic Disease Management"
               ],
               "foundingDate": "2013",
-              "award": "Home Care Elite Top Agency",
+              "award": "Joint Commission Accredited",
               "hasCredential": [
                 "Medicare Certified",
                 "Licensed by California Department of Public Health",
