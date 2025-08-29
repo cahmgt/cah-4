@@ -982,11 +982,11 @@ video {
 .w-8 {
   width: 2rem;
 }
-.w-full {
-  width: 100%;
-}
 .w-auto {
   width: auto;
+}
+.w-full {
+  width: 100%;
 }
 .min-w-14 {
   min-width: 3.5rem;

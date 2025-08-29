@@ -24,20 +24,20 @@ export default function AboutUs() {
               <h4 className="text-xl font-bold mt-8 mb-4 text-medical-dark">What Makes Us Different</h4>
               <div className="grid md:grid-cols-2 gap-6 mb-8">
                 <div className="bg-medical-light p-6 rounded-lg">
-                  <h5 className="font-semibold text-medical-dark mb-3">Privately Owned Since 2013</h5>
-                  <p className="text-sm text-medical-muted">We care for you with a more personal touch, supported by experienced employees—some of whom have been with us from the beginning. Our employees are fully screened, completing criminal background checks before they are hired.</p>
-                </div>
-                <div className="bg-medical-light p-6 rounded-lg">
                   <h5 className="font-semibold text-medical-dark mb-3">Full Continuum of Care</h5>
-                  <p className="text-sm text-medical-muted">From home health and non-medical caregiver services to palliative care and hospice, we offer a range of services to meet your short- or long-term needs wherever you are.</p>
+                  <p className="text-sm text-medical-muted">At California Healthcare Management Group, we meet both short- and long-term health needs in the comfort of home. Our licensed nurses and therapists deliver compassionate, skilled care with professionalism and dignity.</p>
                 </div>
                 <div className="bg-medical-light p-6 rounded-lg">
-                  <h5 className="font-semibold text-medical-dark mb-3">Award-Winning Reputation</h5>
-                  <p className="text-sm text-medical-muted">We are fully accredited and licensed by state and federal organizations, including Medicare. We have earned the prestigious designation as a HOMECARE ELITE Top Agency.</p>
+                  <h5 className="font-semibold text-medical-dark mb-3">Experience You Can Trust</h5>
+                  <p className="text-sm text-medical-muted">Family-owned since 2013, we bring a personal touch and continuity of care—many of our clinicians have been with us from the very beginning.</p>
                 </div>
                 <div className="bg-medical-light p-6 rounded-lg">
-                  <h5 className="font-semibold text-medical-dark mb-3">Areas We Serve</h5>
-                  <p className="text-sm text-medical-muted">Los Angeles County, Orange County, Ventura County, San Bernardino County, and Riverside County.</p>
+                  <h5 className="font-semibold text-medical-dark mb-3">Accredited, Safe & Connected</h5>
+                  <p className="text-sm text-medical-muted">Backed by Medicare certification and Joint Commission accreditation, we use electronic health records and telehealth to enhance safety, communication, and outcomes.</p>
+                </div>
+                <div className="bg-medical-light p-6 rounded-lg">
+                  <h5 className="font-semibold text-medical-dark mb-3">Seamless Care Coordination</h5>
+                  <p className="text-sm text-medical-muted">Beyond skilled nursing and therapy, we arrange medical equipment, lab tests, mobile radiology, podiatry, and other services. We work closely with physicians so every need is covered—and families have peace of mind.</p>
                 </div>
               </div>
               
