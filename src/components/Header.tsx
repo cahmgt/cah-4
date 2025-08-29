@@ -12,15 +12,20 @@ export default function Header() {
     <header className="z-[999] flex w-full items-center border-b border-scheme-border bg-scheme-background lg:min-h-18 lg:px-[5%]">
       <div className="mx-auto size-full lg:grid lg:grid-cols-[0.375fr_1fr_0.375fr] lg:items-center lg:justify-between lg:gap-4">
         <div className="flex min-h-16 items-center justify-between px-[5%] md:min-h-18 lg:min-h-full lg:px-0">
-          <Link href="/" className="flex items-center">
+          <Link href="/" className="flex items-center gap-3">
             <Image
               src="/gims/gims-0004.webp"
               alt="California Healthcare Management Group"
-              width={200}
-              height={80}
-              className="h-16 w-auto"
+              width={300}
+              height={120}
+              className="h-24 w-auto"
               priority
             />
+            <div className="hidden sm:block">
+              <h1 className="text-lg font-bold text-medical-dark leading-tight">
+                California Healthcare<br />Management Group
+              </h1>
+            </div>
           </Link>
           <div className="flex items-center gap-4 lg:hidden">
             <div>
