@@ -48,7 +48,7 @@ export default function OccupationalTherapy() {
             </div>
             <div>
               <img
-                src="/gims/032.png"
+                src="/gims/040.png"
                 className="w-full rounded-image object-cover shadow-lg"
                 alt="California Healthcare Management Group Occupational Therapy - Licensed therapists helping patients develop daily living skills in the comfort of their home"
               />

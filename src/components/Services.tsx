@@ -49,14 +49,38 @@ export default function Services() {
   ]
 
   const additionalServices = [
-    "Bathing Nurses",
-    "Mobile Podiatrist", 
-    "Mobile Ultrasound",
-    "Mobile X-Ray",
-    "Mobile Physicians",
-    "Medical Supplies",
-    "Wound Care Specialists",
-    "Mobile Lab"
+    {
+      name: "Bathing Nurses",
+      image: "/gims/Bathing_Nurses.webp"
+    },
+    {
+      name: "Mobile Podiatrist",
+      image: "/gims/Mobile_Podiatrist.webp"
+    },
+    {
+      name: "Mobile Ultrasound",
+      image: "/gims/Mobile_Ultrasound.webp"
+    },
+    {
+      name: "Mobile X-Ray",
+      image: "/gims/Mobile_XRay.webp"
+    },
+    {
+      name: "Mobile Physicians",
+      image: "/gims/Mobile_Physicians.webp"
+    },
+    {
+      name: "Medical Supplies",
+      image: "/gims/Medical_Supplies.webp"
+    },
+    {
+      name: "Wound Care Specialists",
+      image: "/gims/Wound_Care_Specialists.webp"
+    },
+    {
+      name: "Mobile Lab",
+      image: "/gims/Mobile_Lab.webp"
+    }
   ]
 
   return (
@@ -127,10 +151,16 @@ export default function Services() {
           <div className="grid grid-cols-2 gap-4 md:grid-cols-4 md:gap-6">
             {additionalServices.map((service, index) => (
               <div key={index} className="text-center p-4 bg-medical-light rounded-lg border border-scheme-border hover:border-medical-primary transition-colors">
-                <div className="w-12 h-12 bg-medical-primary rounded-full flex items-center justify-center mx-auto mb-3">
-                  <Scissors className="w-6 h-6 text-white" />
+                <div className="w-12 h-12 mx-auto mb-3 overflow-hidden rounded-full">
+                  <Image 
+                    src={service.image} 
+                    alt={`${service.name} - California Healthcare Management Group`}
+                    width={48}
+                    height={48}
+                    className="w-full h-full object-cover"
+                  />
                 </div>
-                <h4 className="font-semibold text-medical-dark text-sm">{service}</h4>
+                <h4 className="font-semibold text-medical-dark text-sm">{service.name}</h4>
               </div>
             ))}
           </div>

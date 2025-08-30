@@ -48,7 +48,7 @@ export default function SpeechTherapy() {
             </div>
             <div>
               <img
-                src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-landscape.svg"
+                src="/gims/042.png"
                 className="w-full rounded-image object-cover"
                 alt="Speech therapy session"
               />
